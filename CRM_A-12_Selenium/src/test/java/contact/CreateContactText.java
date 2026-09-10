@@ -8,9 +8,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class CreateContactText 
+public class CreateContactText
 {
-	public static void main(String[] args) throws InterruptedException 
+	public static void main(String[] args) throws InterruptedException
 	{
 		//open browser
 			WebDriver driver = new ChromeDriver();
@@ -39,7 +39,7 @@ public class CreateContactText
 			Thread.sleep(3000);
 			
 		//save button
-			driver.findElement(By.xpath("//input[contains(@value,'save']")).click();
+			driver.findElement(By.xpath("//input[contains(@value,'Save')]")).click();
 			
 		//Verification
 			String contacts = driver.findElement(By.id("dtlview_Last Name")).getText();

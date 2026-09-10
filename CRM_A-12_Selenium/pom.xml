@@ -5,23 +5,16 @@
     
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org-AutomationWithPiyush_Qspiders</groupId>
+    <groupId>org.qspiders.automationwithpiyush</groupId>
     <artifactId>CRM_A-12_Selenium</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
 
     <dependencies>
-        <!-- ✅ Selenium Java (latest stable) -->
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.21.0</version>
-        </dependency>
-
-        <!-- ✅ WebDriverManager -->
-        <dependency>
-            <groupId>io.github.bonigarcia</groupId>
-            <artifactId>webdrivermanager</artifactId>
-            <version>5.7.0</version>
+            <version>4.34.0</version>
         </dependency>
     </dependencies>
 
